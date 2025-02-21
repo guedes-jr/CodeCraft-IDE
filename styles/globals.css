@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* Branco */
+    --foreground: 220 15% 20%; /* Preto suave */
+
+    --card: 0 0% 98%; /* Branco suave */
+    --card-foreground: 220 15% 20%; /* Preto suave */
+
+    --popover: 0 0% 98%; /* Branco suave */
+    --popover-foreground: 220 15% 20%; /* Preto suave */
+
+    --primary: 220 90% 56%; /* Azul vibrante */
+    --primary-foreground: 0 0% 100%; /* Branco */
+
+    --secondary: 220 15% 90%; /* Azul claro */
+    --secondary-foreground: 220 15% 20%; /* Preto suave */
+
+    --muted: 220 15% 95%; /* Cinza claro */
+    --muted-foreground: 220 15% 40%; /* Cinza escuro */
+
+    --accent: 340 90% 56%; /* Vermelho vibrante */
+    --accent-foreground: 0 0% 100%; /* Branco */
+
+    --destructive: 0 84.2% 60.2%; /* Vermelho */
+    --destructive-foreground: 0 0% 100%; /* Branco */
+
+    --border: 220 15% 90%; /* Azul claro */
+    --input: 220 15% 90%; /* Azul claro */
+    --ring: 220 90% 56%; /* Azul vibrante */
+
+    --radius: 0.5rem;
+
+    --header-background: 220 90% 56%; /* Azul vibrante */
+    --header-foreground: 0 0% 100%; /* Branco */
+
+    --footer-background: 220 15% 20%; /* Preto suave */
+    --footer-foreground: 0 0% 100%; /* Branco */
+  }
+
+  .dark {
+    --background: 220 15% 10%; /* Preto suave */
+    --foreground: 0 0% 100%; /* Branco */
+
+    --card: 220 15% 15%; /* Cinza escuro */
+    --card-foreground: 0 0% 100%; /* Branco */
+
+    --popover: 220 15% 15%; /* Cinza escuro */
+    --popover-foreground: 0 0% 100%; /* Branco */
+
+    --primary: 220 90% 56%; /* Azul vibrante */
+    --primary-foreground: 0 0% 100%; /* Branco */
+
+    --secondary: 220 15% 30%; /* Azul escuro */
+    --secondary-foreground: 0 0% 100%; /* Branco */
+
+    --muted: 220 15% 20%; /* Cinza escuro */
+    --muted-foreground: 220 15% 70%; /* Cinza claro */
+
+    --accent: 340 90% 56%; /* Vermelho vibrante */
+    --accent-foreground: 0 0% 100%; /* Branco */
+
+    --destructive: 0 62.8% 30.6%; /* Vermelho escuro */
+    --destructive-foreground: 0 0% 100%; /* Branco */
+
+    --border: 220 15% 30%; /* Azul escuro */
+    --input: 220 15% 30%; /* Azul escuro */
+    --ring: 220 90% 56%; /* Azul vibrante */
+
+    --header-background: 220 15% 30%; /* Azul escuro */
+    --header-foreground: 0 0% 100%; /* Branco */
+
+    --footer-background: 220 15% 15%; /* Cinza escuro */
+    --footer-foreground: 0 0% 100%; /* Branco */
+  }
+
+  .header {
+    background-color: var(--header-background);
+    color: var(--header-foreground);
+  }
+
+  .footer {
+    background-color: var(--footer-background);
+    color: var(--footer-foreground);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
