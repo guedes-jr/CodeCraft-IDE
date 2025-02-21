@@ -124,15 +124,13 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 📫 Contato
 
-Seu Nome - [@seu_twitter](https://twitter.com/seu_twitter) - email@exemplo.com
+👤 **Seu Nome**
 
-Link do Projeto: [https://github.com/username/codecraft-ide](https://github.com/username/codecraft-ide)
+- Github: [@guedes-jr](https://github.com/guedes-jr)
+- LinkedIn: [João Guedes](https://www.linkedin.com/in/jo%C3%A3o-guedes-36a440135)
+- Email: joao.guedes.developer@gmail.com
 
 ---
 
-<div align="center">
-
-Feito com ❤️ por [Seu Nome](https://github.com/username)
-
-</div>
+Desenvolvido com profissionalismo por [João Guedes](https://github.com/guedes-jr) 🤖.
 
