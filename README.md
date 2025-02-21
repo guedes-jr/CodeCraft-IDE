@@ -2,9 +2,7 @@
 
 <div align="center">
 
-![CodeCraft IDE Logo](/placeholder.svg?height=100&width=100)
-
-An advanced online code editor supporting multiple programming languages with real-time compilation and execution.
+![CodeCraft IDE Banner](/public/banner.png?height=100&width=100)
 
 [Demo](https://codecraft-ide.vercel.app) · [Documentation](https://codecraft-ide.vercel.app/docs) · [Report Bug](https://github.com/username/codecraft-ide/issues) · [Request Feature](https://github.com/username/codecraft-ide/issues)
 

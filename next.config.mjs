@@ -21,6 +21,9 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  output: 'export',
+  basePath: '/CodeCraft-IDE',
+  assetPrefix: '/CodeCraft-IDE/',
 }
 
 mergeConfig(nextConfig, userConfig)
